@@ -9,7 +9,7 @@ $( document ).ready(function() {
             $("#error1").remove();
             $("#fountainG").show();
             $.ajax({
-                url: 'http://obasiservices.tk/api/v1/email/' + email,
+                url: 'https://obasiservices.tk/api/v1/email/' + email,
                 type: 'get',
                 success: function(data){
                     $("#fountainG").hide(); 
